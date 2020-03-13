@@ -6,8 +6,8 @@ Built and Designed by: Rose Kairu
 
 ## Technologies
 Project is created with:
-html5
-Css
+* html5
+* Css
 
 ## Project Description
 This is a Portfolio landing page giving more information on projects done by author.
