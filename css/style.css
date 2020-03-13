@@ -1,0 +1,28 @@
+h1 {
+    color: darkorchid;
+    text-align: center;
+}
+h2 {
+    color: aqua;
+    font-style: italic;
+    text-align: center;
+}
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 1in;
+}
+p {
+    font-family: sans-serif;
+    text-indent: 1in;
+}
+ul {
+    line-height: 40px;
+    text-indent: 1in;
+}
+body {
+    background-color: darkseagreen;
+    font-size: medium;
+}
+img {
+    float: left;
+}
