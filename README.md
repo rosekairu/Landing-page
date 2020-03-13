@@ -10,8 +10,8 @@ Project is created with:
 * Css
 
 ## Project Description
-This is a Portfolio landing page giving more information on projects done by author.
-Her Background and work experiences.
+* This is a Portfolio landing page giving more information on projects done by author.
+  Her Background and work experiences.
 
 ## Project setup instructions 
 None
