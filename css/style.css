@@ -55,15 +55,22 @@ body {
     text-align: start;
     padding-top: 20px;
 }
+#workheader{
+    color: aqua;
+    font-style: italic;
+}
 #section-b{
     background-color: darkseagreen;
     font-family: Arial, Helvetica, sans-serif;
     text-indent: 1in;
     line-height: 40px;
 }
-#workheader{
-    color: aqua;
-    font-style: italic;
+#section-c{
+    background-color: darkslategray;
+}
+#port{
+    text-align: center;
+    color: lightseagreen;
 }
 img{
     float: left;
