@@ -30,7 +30,7 @@ body {
 }
 #showcase h1 {
     color: darkorchid;
-    font-size: medium;
+    font-size: large;
     line-height: 1.2;
 }
 p {
@@ -39,13 +39,13 @@ p {
     font-size: medium;
 }
 #showcase .button{
-    font-size: small;
+    font-size: large;
     text-decoration: none;
     color: darkslateblue;
     border: darkslateblue; 1px solid;
     border: radius 10px;
     padding: 10px 20px;
-    margin-top: 20px:
+    margin-top: 20px;
 }
 #showcase .button:hover{
     background-color: darkslateblue;
