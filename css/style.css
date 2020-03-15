@@ -9,42 +9,6 @@ body {
     background-repeat: no-repeat;
     font-size: medium;
 }
-/*styling the header
-.container{
-    margin: auto;
-    overflow: hidden;
-}
-header{
-    background-color: dimgray;
-    padding-top: 40px;
-    font-size: medium;
-    min-height: 40px;
-    border-bottom:orange 3px solid;
-}
-header a{
-    color:darkmagenta;
-    text-decoration:none;
-    font-size: 16px;
-}
-header ul{
-    margin: 0;
-    padding: 0;
-}
-header li{
-    float: left;
-    display:inline;
-    padding: 0 20px 0 20px;
-}
-header nav{
-    float: right;
-    margin-top: 10px;
-}
-header a:hover{
-    text-decoration: none;
-    color:white;
-}
-*/
-/*styling the showcase*/
 #showcase {
     background-image: url("../images/bg3.jpg");
     background-size: cover;
