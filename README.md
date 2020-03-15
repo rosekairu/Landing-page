@@ -18,7 +18,9 @@ None
 
 ## Link to live site on GitHub Pages 
 Here are the Links to some the Projects Created:
-
+* [My first website](#general-info)
+* [Interior Design](#technologies)
+* [Setup](#setup)
 
 
 ## copyright and license information
