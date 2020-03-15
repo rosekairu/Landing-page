@@ -4,39 +4,74 @@
 }
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-repeat: no-repeat;
     font-size: medium;
 }
+/*styling the header*/
+.container{
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background-color: dimgray;
+    padding-top: 40px;
+    font-size: medium;
+    min-height: 40px;
+    border-bottom:orange 3px solid;
+}
+header a{
+    color:darkmagenta;
+    text-decoration:none;
+    font-size: 16px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header a:hover{
+    text-decoration: none;
+    color:white;
+}
+/*styling the showcase*/
 #showcase {
     background-image: url("../images/bg3.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
     line-height: 2;
+    border-bottom:orange 3px solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 0 20px;
+    font-weight: 800;
 }
 #showcase h1 {
-    color: darkmagenta;
+    color: lightgreen;
     font-size: large;
     text-align: right;
+}
+.highlight{
+    color: darkmagenta;
+    font-weight:bolder;
+    text-transform: uppercase;
 }
 #showcase p{
     color: lightgreen;
 }
-#about{
-    color: aqua;
-    font-style: italic;
-    font-size: medium;
-    text-align: left;
-    font-family: sans-serif;
-    text-indent: 1in;
-    }
 #showcase .button{
     font-size: large;
     text-decoration: none;
@@ -50,6 +85,14 @@ body {
     background-color: darkslateblue;
     color: white;
 }
+#about{
+    color: aqua;
+    font-style: italic;
+    font-size: medium;
+    text-align: left;
+    font-family: sans-serif;
+    text-indent: 1in;
+    }
 .section-a{
     background-color: darkseagreen;
     text-align: start;
@@ -64,13 +107,61 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-indent: 1in;
     line-height: 40px;
+    border-bottom:orange 3px solid;
 }
 #section-c{
     background-color: darkslategray;
+    margin: 0px;
 }
 #port{
     text-align: center;
-    color: lightseagreen;
+    color:black;
+    padding: 10%;
+}
+#port h3{
+    color: lightgreen;
+}
+#section-c p{
+    margin-bottom: 10%;
+}
+#section-c .box1{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 5px;
+    border: darkslateblue;
+    border: radius 10px;
+    margin-top: 20px;
+}
+#section-c .box1:hover{
+    background-color:darkkhaki;
+    color: white; 
+}
+#section-c .box2{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 5px;
+    border: darkslateblue;
+    border: radius 10px;
+    margin-top: 20px;
+}
+#section-c .box2:hover{
+    background-color:darkkhaki;
+    color: white; 
+}
+#section-c .box3{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 5px;
+    border: darkslateblue;
+    border: radius 10px;
+    margin-top: 20px;
+}
+#section-c .box3:hover{
+    background-color:darkkhaki;
+    color: white; 
 }
 img{
     float: left;
